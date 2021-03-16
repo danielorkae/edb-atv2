@@ -2,7 +2,7 @@ const { mergeSort, bubbleSort } = require("./sorts");
 const fs = require("fs");
 
 const init = () => {
-  const maxSize = 2 ** 20;
+  const maxSize = 2 ** 17;
   const maxNumber = 10000;
 
   let unsorted = [];
